@@ -1,16 +1,36 @@
-# React + Vite
+# 🚂 RailEase — Train Reservation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack train ticket booking web application built with React.js and ASP.NET Core.
 
-Currently, two official plugins are available:
+## 🔗 Links
+- **Frontend:** [RailEase](https://github.com/arif1308/RailEase)
+- **Backend:** [RailEaseAPI](https://github.com/arif1308/RailEaseAPI)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite, React Router, Axios
+- **Backend:** ASP.NET Core Web API (C#)
+- **Database:** SQL Server, Entity Framework Core
 
-## React Compiler
+## ✨ Features
+- User Authentication (Register/Login)
+- Train Search by City and Train Number
+- Real-time Seat Availability
+- Ticket Booking with PNR Generation
+- Ticket Cancellation
+- User Profile Management
+- Dark/Light Theme Toggle
+- 50+ Real Indian Trains
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run
 
-## Expanding the ESLint configuration
+### Frontend
+cd railease
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+cd RailEaseAPI
+dotnet run
+
+## 👨‍💻 Developer
+**Arif Siddique**
